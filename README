@@ -1,0 +1,32 @@
+DESCRIPTION:
+
+See pods.
+
+COPYRIGHT:
+
+Copyright (c) 1996 Organic Online. All rights reserved. This program is free
+software; you can redistribute it and/or modify it under the same terms
+as Perl itself.
+
+PREREQUISITES:
+
+Perl 5 (as far as I know that's it.)
+
+INSTALLATION:
+
+Sorry, no makefile. Just install the directory the file MethodMaker.pm
+under the directory Class somewhere in your @INC.
+
+TODO:
+
+o Autoload the meta-methods so we don't have to compile the whole
+  MethodMaker just to get a few meta-methods we actually use.
+
+o I may think about changing the way the meta-methods are called. I'll
+  try to maintain backwards compatibility (I've certainly got more code
+  than anyone else on the planet that would break if I pooch backwards
+  compatibility ;-) but no promises at this point.
+
+VERSION:
+
+0.90
